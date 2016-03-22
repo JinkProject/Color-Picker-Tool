@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6217F1C1C24C0E300FFC047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6217F1B1C24C0E300FFC047 /* AppDelegate.swift */; };
+		F6217F1E1C24C0E400FFC047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6217F1D1C24C0E400FFC047 /* ViewController.swift */; };
+		F6217F211C24C0E400FFC047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6217F1F1C24C0E400FFC047 /* Main.storyboard */; };
+		F6217F231C24C0E400FFC047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6217F221C24C0E400FFC047 /* Assets.xcassets */; };
+		F6217F261C24C0E400FFC047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6217F241C24C0E400FFC047 /* LaunchScreen.storyboard */; };
+		F6217F311C24C16900FFC047 /* RAColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6217F301C24C16900FFC047 /* RAColorPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6217F181C24C0E300FFC047 /* Color Gradient Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Gradient Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6217F1B1C24C0E300FFC047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6217F1D1C24C0E400FFC047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6217F201C24C0E400FFC047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6217F221C24C0E400FFC047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6217F251C24C0E400FFC047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6217F271C24C0E400FFC047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6217F301C24C16900FFC047 /* RAColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAColorPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6217F151C24C0E300FFC047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6217F0F1C24C0E300FFC047 = {
+			isa = PBXGroup;
+			children = (
+				F6217F1A1C24C0E300FFC047 /* Color Gradient Tool */,
+				F6217F191C24C0E300FFC047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6217F191C24C0E300FFC047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6217F181C24C0E300FFC047 /* Color Gradient Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6217F1A1C24C0E300FFC047 /* Color Gradient Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F6217F2D1C24C0FE00FFC047 /* Resources */,
+				F6217F1B1C24C0E300FFC047 /* AppDelegate.swift */,
+				F6217F1D1C24C0E400FFC047 /* ViewController.swift */,
+				F6217F1F1C24C0E400FFC047 /* Main.storyboard */,
+				F6217F221C24C0E400FFC047 /* Assets.xcassets */,
+				F6217F241C24C0E400FFC047 /* LaunchScreen.storyboard */,
+				F6217F271C24C0E400FFC047 /* Info.plist */,
+			);
+			path = "Color Gradient Tool";
+			sourceTree = "<group>";
+		};
+		F6217F2D1C24C0FE00FFC047 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6217F301C24C16900FFC047 /* RAColorPicker.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6217F171C24C0E300FFC047 /* Color Gradient Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6217F2A1C24C0E400FFC047 /* Build configuration list for PBXNativeTarget "Color Gradient Tool" */;
+			buildPhases = (
+				F6217F141C24C0E300FFC047 /* Sources */,
+				F6217F151C24C0E300FFC047 /* Frameworks */,
+				F6217F161C24C0E300FFC047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Gradient Tool";
+			productName = "Color Gradient Tool";
+			productReference = F6217F181C24C0E300FFC047 /* Color Gradient Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6217F101C24C0E300FFC047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Stephen Whitfield";
+				TargetAttributes = {
+					F6217F171C24C0E300FFC047 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3K22BUS8RL;
+					};
+				};
+			};
+			buildConfigurationList = F6217F131C24C0E300FFC047 /* Build configuration list for PBXProject "Color Gradient Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6217F0F1C24C0E300FFC047;
+			productRefGroup = F6217F191C24C0E300FFC047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6217F171C24C0E300FFC047 /* Color Gradient Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6217F161C24C0E300FFC047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6217F261C24C0E400FFC047 /* LaunchScreen.storyboard in Resources */,
+				F6217F231C24C0E400FFC047 /* Assets.xcassets in Resources */,
+				F6217F211C24C0E400FFC047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6217F141C24C0E300FFC047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6217F1E1C24C0E400FFC047 /* ViewController.swift in Sources */,
+				F6217F1C1C24C0E300FFC047 /* AppDelegate.swift in Sources */,
+				F6217F311C24C16900FFC047 /* RAColorPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6217F1F1C24C0E400FFC047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6217F201C24C0E400FFC047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6217F241C24C0E400FFC047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6217F251C24C0E400FFC047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6217F281C24C0E400FFC047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6217F291C24C0E400FFC047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6217F2B1C24C0E400FFC047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Color Gradient Tool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nothing.Color-Gradient-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6217F2C1C24C0E400FFC047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Color Gradient Tool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nothing.Color-Gradient-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6217F131C24C0E300FFC047 /* Build configuration list for PBXProject "Color Gradient Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6217F281C24C0E400FFC047 /* Debug */,
+				F6217F291C24C0E400FFC047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6217F2A1C24C0E400FFC047 /* Build configuration list for PBXNativeTarget "Color Gradient Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6217F2B1C24C0E400FFC047 /* Debug */,
+				F6217F2C1C24C0E400FFC047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6217F101C24C0E300FFC047 /* Project object */;
+}
