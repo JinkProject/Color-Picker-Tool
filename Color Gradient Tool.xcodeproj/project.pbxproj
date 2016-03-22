@@ -12,7 +12,7 @@
 		F6217F211C24C0E400FFC047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6217F1F1C24C0E400FFC047 /* Main.storyboard */; };
 		F6217F231C24C0E400FFC047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6217F221C24C0E400FFC047 /* Assets.xcassets */; };
 		F6217F261C24C0E400FFC047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6217F241C24C0E400FFC047 /* LaunchScreen.storyboard */; };
-		F6217F311C24C16900FFC047 /* RAColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6217F301C24C16900FFC047 /* RAColorPicker.swift */; };
+		F6217F311C24C16900FFC047 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6217F301C24C16900FFC047 /* ColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		F6217F221C24C0E400FFC047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6217F251C24C0E400FFC047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6217F271C24C0E400FFC047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6217F301C24C16900FFC047 /* RAColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAColorPicker.swift; sourceTree = "<group>"; };
+		F6217F301C24C16900FFC047 /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		F6217F2D1C24C0FE00FFC047 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F6217F301C24C16900FFC047 /* RAColorPicker.swift */,
+				F6217F301C24C16900FFC047 /* ColorPicker.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -107,7 +107,7 @@
 				TargetAttributes = {
 					F6217F171C24C0E300FFC047 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 3K22BUS8RL;
+						DevelopmentTeam = E8TP37B5S7;
 					};
 				};
 			};
@@ -149,7 +149,7 @@
 			files = (
 				F6217F1E1C24C0E400FFC047 /* ViewController.swift in Sources */,
 				F6217F1C1C24C0E300FFC047 /* AppDelegate.swift in Sources */,
-				F6217F311C24C16900FFC047 /* RAColorPicker.swift in Sources */,
+				F6217F311C24C16900FFC047 /* ColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  RAColorPicker.swift
+//  ColorPicker.swift
 //  Color Gradient Tool
 //
 //  Created by Stephen Whitfield on 12/18/15.
@@ -17,7 +17,7 @@ public enum Gradient {
     case Transparent
 }
 
-protocol RAColorPickerDelegate {
+protocol ColorPickerDelegate {
     
     /**
     Updates color values after an update from tap or pan
@@ -28,10 +28,10 @@ protocol RAColorPickerDelegate {
     func pickerColorDidChange(pickerColor: UIColor)
 }
 
-public class RAColorPicker: UIView {
+public class ColorPicker: UIView {
     
     /// Pass messages to the listener
-    var colorPickerDelegate: RAColorPickerDelegate?
+    var colorPickerDelegate: ColorPickerDelegate?
     
     /// Pan gesture for finding color
     private var panGesture: UIPanGestureRecognizer!
@@ -46,7 +46,7 @@ public class RAColorPicker: UIView {
         embedGestureRecognizers()
     }
     
-    /// Support subclassing RAColorPicker via storyboard
+    /// Support subclassing ColorPicker via storyboard
     override public func awakeFromNib() {
         embedGestureRecognizers()
     }
